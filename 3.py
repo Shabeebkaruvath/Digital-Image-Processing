@@ -3,7 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # Load image
-img = cv2.imread("image.png")
+img = cv2.imread("image1.png")
 
 if img is None:
     print("ERROR: Image not found.")

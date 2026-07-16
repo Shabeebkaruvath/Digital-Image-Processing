@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import time
 
 # Load image
-image = cv2.imread('image.png', cv2.IMREAD_GRAYSCALE).astype(np.float32)
+image = cv2.imread('image1.png', cv2.IMREAD_GRAYSCALE).astype(np.float32)
 
 # ============ HELPER FUNCTIONS ============
 def dft(img):

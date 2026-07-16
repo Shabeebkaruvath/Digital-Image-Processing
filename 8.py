@@ -3,7 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # Load image
-image = cv2.imread('image.png', cv2.IMREAD_GRAYSCALE)
+image = cv2.imread('image1.png', cv2.IMREAD_GRAYSCALE)
 
 # Convert to float32
 float_img = np.float32(image)

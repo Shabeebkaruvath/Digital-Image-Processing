@@ -3,7 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # Load image
-image = cv2.imread('image.png', cv2.IMREAD_GRAYSCALE)
+image = cv2.imread('image1.png', cv2.IMREAD_GRAYSCALE)
 
 # ============ SOBEL OPERATOR ============
 sobel_x = cv2.Sobel(image, cv2.CV_64F, 1, 0, ksize=3)

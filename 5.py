@@ -3,7 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # Load image
-image = cv2.imread('image.png', cv2.IMREAD_GRAYSCALE)
+image = cv2.imread('image1.png', cv2.IMREAD_GRAYSCALE)
 
 # Unsharp Masking function
 def unsharp_mask(img, sigma=1.0, weight=1.0):
